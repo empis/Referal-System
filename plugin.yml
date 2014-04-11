@@ -1,0 +1,6 @@
+name: RefSys
+main: net.empis.refsys.RefSys
+version: 1.0
+commands: 
+    ref:
+        description: Refer a Friend.
