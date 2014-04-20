@@ -25,7 +25,7 @@ import org.bukkit.plugin.java.JavaPlugin;
  */
 public class RefSys extends JavaPlugin{
     private static final Logger log = Logger.getLogger("Minecraft");
-    MySQL MySQL = new MySQL(RefSys.this, "46.36.35.188", "3306", "refsys", "empis", "cooperpackheslo");
+    MySQL MySQL = new MySQL(RefSys.this, "HOST", "PORT(DEFAULT 3306)", "DATABAZA", "USER", "PASS");
     Connection c = null;
     @Override
     public void onEnable(){
